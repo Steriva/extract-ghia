@@ -1,0 +1,20 @@
+{
+  "reynolds": 1000,
+  "source": "AceNumerics",
+  "source_url": "https://www.acenumerics.com/uploads/5/3/3/5/53352785/re_1000_driven_cavity_benchmark_results.pdf",
+  "pdf_file": "source.pdf",
+  "tables": [
+    "vortex_map",
+    "vertical_velocity",
+    "horizontal_vorticity",
+    "horizontal_velocity",
+    "vertical_vorticity",
+    "centerline_extrema",
+    "centerline_u",
+    "centerline_v"
+  ],
+  "centerline_definition": {
+    "centerline_u": "u(x=0.5, y)",
+    "centerline_v": "v(x, y=0.5)"
+  }
+}
