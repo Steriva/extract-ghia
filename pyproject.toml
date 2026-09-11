@@ -36,6 +36,7 @@ dev = [
 
 [project.scripts]
 extract-ghia = "extract_ghia.cli:main"
+extract-ghia-to-json = "extract_ghia.to_json:main"
 
 [build-system]
 requires = ["hatchling"]
